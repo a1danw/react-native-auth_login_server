@@ -1,32 +1,3 @@
-// const express = require("express");
-// const mongoose = require("mongoose");
-// const cors = require("cors");
-
-// const app = express();
-
-// app.use(cors());
-// app.use(express.json());
-
-// const authRoutes = require("./routes/auth");
-// const verifyToken = require("./routes/verifyToken");
-
-// app.get("/api/user/profile", verifyToken, (req, res) => {
-//   // console.log(req.user);
-//   res.send({ success: true, data: req.user });
-// });
-
-// app.use("/api/users", authRoutes);
-
-// mongoose
-//   .connect(
-//     "mongodb+srv://aidanw1:K9o9b2bLV92jazUf@react-native-home-listi.jxp9z.mongodb.net/authSystem?retryWrites=true&w=majority",
-//     { useNewUrlParser: true, useUnifiedTopology: true }
-//   )
-//   .then(() => {
-//     app.listen(3000, () => console.log("Server is running"));
-//   })
-//   .catch((err) => console.log(err));
-
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
